@@ -31,7 +31,7 @@ function App() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
               nesciunt aspernatur reprehenderit quod illo officia, fugiat odio
               totam saepe ex voluptates repudiandae asperiores quos ab
-              repellendus illum, accusantium, quaerat tenetur.
+              repellendus illum, quaerat tenetur.
             </p>
             <strong>
               Subscribe to the site{" "}
