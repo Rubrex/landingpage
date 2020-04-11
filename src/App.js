@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header>
         <div className="navParent">
-          <div className="logo">RubeReX</div>
+          <div className="logo">RubReX</div>
           <div className="navigation">
             <ul>
               <li>
@@ -26,7 +26,7 @@ function App() {
       <footer>
         <div className="footerContainer">
           <div className="footerChild">
-            <h1>Flor De Muorto</h1>
+            <h1>Flor De Muerto</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
               nesciunt aspernatur reprehenderit quod illo officia, fugiat odio
@@ -41,7 +41,7 @@ function App() {
             </strong>
           </div>
           <div className="footerChild">
-            <h1>Flor De Muorto</h1>
+            <h1>Flor De Muerto</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
               nesciunt aspernatur reprehenderit quod illo officia, fugiat odio
@@ -56,7 +56,7 @@ function App() {
             </strong>
           </div>
           <div className="footerChild">
-            <h1>Flor De Muorto</h1>
+            <h1>Flor De Muerto</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
               nesciunt aspernatur reprehenderit quod illo officia, fugiat odio
