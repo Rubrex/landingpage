@@ -34,7 +34,7 @@ function App() {
               repellendus illum, quaerat tenetur.
             </p>
             <strong>
-              Subscribe to the site{" "}
+              Sub to the site
               <span role="img" aria-label="bell">
                 🔔
               </span>
