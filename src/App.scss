@@ -6,6 +6,7 @@ $bgc: #528078;
 $bgc_secondary: #3e615b;
 * {
   transition: all 300ms ease;
+  box-sizing: border-box;
 }
 .App {
   text-align: center;
@@ -24,7 +25,37 @@ header {
     .logo {
       font-size: 25px;
       font-weight: 300;
+      background-color: $bgc;
       color: white;
+      padding: 5px;
+      border: 5px solid transparent;
+      position: relative;
+      z-index: 10;
+      overflow: hidden;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -90px;
+        width: 120%;
+        height: 40%;
+        background-color: #eee;
+        filter: blur(10px);
+        transform: rotate(-45deg);
+        animation: logoBefore 1s ease-out infinite;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -80px;
+        width: 100%;
+        height: 20%;
+        background-color: #eee;
+        filter: blur(15px);
+        transform: rotate(-45deg);
+        animation: logoBefore 1s ease-out 0.1s infinite;
+      }
     }
     .navigation {
       ul {
@@ -94,5 +125,18 @@ footer {
         width: 80%;
       }
     }
+  }
+}
+
+// Keyframes
+@keyframes logoBefore {
+  0% {
+    left: -90;
+  }
+  50% {
+    left: 100px;
+  }
+  100% {
+    left: 200px;
   }
 }

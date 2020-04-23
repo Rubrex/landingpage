@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.scss";
-
 function App() {
   return (
     <div className="App">
@@ -49,7 +48,7 @@ function App() {
               repellendus illum, accusantium, quaerat tenetur.
             </p>
             <strong>
-              Make a Donation{" "}
+              Make a Donation
               <span role="img" aria-label="money">
                 💰
               </span>
