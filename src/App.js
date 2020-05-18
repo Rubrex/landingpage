@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.scss";
-
 function App() {
   return (
     <div className="App">
       <header>
         <div className="navParent">
-          <div className="logo">RubeReX</div>
+          <div className="logo">RubReX</div>
           <div className="navigation">
             <ul>
               <li>
@@ -26,22 +25,22 @@ function App() {
       <footer>
         <div className="footerContainer">
           <div className="footerChild">
-            <h1>Flor De Muorto</h1>
+            <h1>Flor De Muerto</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
               nesciunt aspernatur reprehenderit quod illo officia, fugiat odio
               totam saepe ex voluptates repudiandae asperiores quos ab
-              repellendus illum, accusantium, quaerat tenetur.
+              repellendus illum, quaerat tenetur.
             </p>
             <strong>
-              Subscribe to the site{" "}
+              Sub to the site
               <span role="img" aria-label="bell">
                 🔔
               </span>
             </strong>
           </div>
           <div className="footerChild">
-            <h1>Flor De Muorto</h1>
+            <h1>Flor De Muerto</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
               nesciunt aspernatur reprehenderit quod illo officia, fugiat odio
@@ -49,14 +48,14 @@ function App() {
               repellendus illum, accusantium, quaerat tenetur.
             </p>
             <strong>
-              Make a Donation{" "}
+              Make a Donation
               <span role="img" aria-label="money">
                 💰
               </span>
             </strong>
           </div>
           <div className="footerChild">
-            <h1>Flor De Muorto</h1>
+            <h1>Flor De Muerto</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
               nesciunt aspernatur reprehenderit quod illo officia, fugiat odio
