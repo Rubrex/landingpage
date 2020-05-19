@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header>
         <div className="navParent">
-          <div className="logo">Rub_____ReX</div>
+          <div className="logo">Text Brunch</div>
           <div className="navigation">
             <ul>
               <li>
