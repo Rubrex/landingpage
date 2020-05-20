@@ -9,13 +9,13 @@ function App() {
           <div className="navigation">
             <ul>
               <li>
-                <button>Cats</button>
+                <button class="waves-effect waves-light btn">Cats</button>
               </li>
               <li>
-                <button>Dogs</button>
+                <button class="waves-effect waves-light btn">Dogs</button>
               </li>
               <li>
-                <button>Rabits</button>
+                <button class="waves-effect waves-light btn">Rabits</button>
               </li>
             </ul>
           </div>

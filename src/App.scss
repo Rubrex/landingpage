@@ -42,7 +42,7 @@ header {
         background-color: #eee;
         filter: blur(10px);
         transform: rotate(-45deg);
-        animation: logoBefore 1s ease-out infinite;
+        animation: logoBefore 2s ease-out infinite;
       }
       &::after {
         content: "";
@@ -54,7 +54,7 @@ header {
         background-color: #eee;
         filter: blur(15px);
         transform: rotate(-45deg);
-        animation: logoBefore 1s ease-out 0.1s infinite;
+        animation: logoBefore 2s ease-out 0.1s infinite;
       }
     }
     .navigation {
@@ -65,8 +65,8 @@ header {
         li {
           float: left;
           button {
-            font-size: 18px;
-            font-weight: 400;
+            font-size: 14px;
+            font-weight: 600;
             display: block;
             height: 100%;
             background-color: $bgc;
@@ -75,10 +75,11 @@ header {
             border: none;
             outline: none;
             &:hover {
-              color: rgb(185, 136, 2);
+              color: rgb(186, 212, 69);
               background-color: $bgc_secondary;
               cursor: pointer;
             }
+            box-shadow: none;
           }
         }
       }
