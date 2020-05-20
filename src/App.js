@@ -25,7 +25,7 @@ function App() {
       <footer>
         <div className="footerContainer">
           <div className="footerChild">
-            <h1>Flor De Muerto</h1>
+            <h3>Flor De Muerto</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
               nesciunt aspernatur reprehenderit quod illo officia, fugiat odio
@@ -40,7 +40,7 @@ function App() {
             </strong>
           </div>
           <div className="footerChild">
-            <h1>Flor De Muerto</h1>
+            <h3>Flor De Muerto</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
               nesciunt aspernatur reprehenderit quod illo officia, fugiat odio
@@ -55,7 +55,7 @@ function App() {
             </strong>
           </div>
           <div className="footerChild">
-            <h1>Flor De Muerto</h1>
+            <h3>Flor De Muerto</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
               nesciunt aspernatur reprehenderit quod illo officia, fugiat odio
