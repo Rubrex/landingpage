@@ -3,7 +3,10 @@
 # dependencies
 /node_modules
 /.pnp
+<<<<<<< HEAD
 /.vscode
+=======
+>>>>>>> 5b8be91c27adf9b15dbec4dd00bf1d2af02cbe30
 .pnp.js
 
 # testing
